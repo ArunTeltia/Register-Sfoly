@@ -118,7 +118,7 @@ button {
     padding: 10px 40px;
     margin-top: 20px;
     border: none;
-    background: linear-gradient(to right, #4568DC, #B06AB3);
+    background: linear-gradient(to right, #4568DC, #b573b8);
     border-radius: 20px;
     transition: 0.3s;
 }
@@ -135,6 +135,74 @@ button a {
     font-family: 'Open Sans', sans-serif;
     color:gray;
 }
+.container1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    /* width: 80%;*/
+    /* width: 1000px; */
+  }
+  .progress-bar {
+    width: 50%;
+  }
+  ul {
+    /* remove default ul styling */
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+
+  }
+  .progress-bar{
+      align-items: center;
+      justify-content:center;
+      /* width:700px */
+      /* margin-left:50% */
+  }
+  li {
+    display: flex;
+    width: 100%;
+    align-items: center;
+  }
+  li span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    /* Every span needs a border so things align */
+    border: 3px solid #b2bec3;
+    background-color: #b2bec3;
+    color: white;
+  }
+  li:after {
+    background-color: #b2bec3;
+    content: '';
+    height: 3px;
+    flex-grow: 1;
+  }
+  li:last-child {
+    /*  This prevents the last li from adding space to the right of the span  */
+    width: auto;
+  }
+  li:last-child:after {
+    display: none;
+  }
+  li.completed:after {
+    background-color: #6c5ce7;
+  }
+  span.completed {
+    border-color: #6c5ce7;
+    background-color: #6c5ce7;
+  }
+  span.current {
+    border-color: #6c5ce7;
+    background-color: #fff;
+    color: #6c5ce7;
+  }
+  
 @media (max-width:700px){
     /* body{
         top: 0%;
@@ -146,7 +214,9 @@ button a {
         width: 100%;
     }
     .container{
-        width:100%
+        width:100%;
+        box-shadow: 0px 0px 0px 0px;
+        border: 0px;
     }
     .container1{
         flex: 0%;
@@ -156,4 +226,11 @@ button a {
         flex:100%;
         width:0%;
     }
+    .progress-bar{
+        margin-left: 400px;
+        width:300px;
+    }
+    
+
+    
 }
