@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Email Verification </title>
+    <link rel="stylesheet" href="pagestyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <button class="back fa fa-arrow-left"></button>
+        <h2>Verify your email</h2>
+        <div>You will need to verify your email to complete registration</div>
+        <img src="box.JPG" alt="" srcset="">
+        <div class="text">An email has been sent to prakharsharma800@gmail.com with a link to verify your account. If
+            <br>you have not recieved the email after a fer minutes, please check your spam folder</div>
+        <div id="button">
+            <button class="button1">Resend Email</button>
+            <!-- <button class="button2">Contact Support</button> -->
+        </div>
+    </div>
+
+    <script>
+        const backbutton = document.querySelector('.back');
+        backbutton.addEventListener('click', () => {
+            console.log('Hello');
+        })
+    </script>
+</body>
+
+</html>
