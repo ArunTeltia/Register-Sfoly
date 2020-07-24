@@ -46,7 +46,7 @@ background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+
     width: 120px;
     height: 40px;
     outline: 0;
-    border-color: blue;
+    border-color: lightgray;
     cursor: pointer;
     font-size: 16px;
 }
