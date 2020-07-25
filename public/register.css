@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: system-ui;
-    color: white;
+    color: black;
 }
 body{
     background: linear-gradient(90deg,#12c2e9,#c471ed,#f64f59);
@@ -37,7 +37,7 @@ label{
     max-width: 100%;
 }
 select{
-    background-color: white;
+    background-color: lightgrey;
     border: none;
     height: 30px;
     width: 80%;
@@ -51,7 +51,7 @@ option{
     font-family: Arial, Helvetica, sans-serif;
 }
 input{
-    background-color: white;
+    background-color: lightgrey;
     border: none;
     height: 30px;
     width: 80%;
@@ -85,9 +85,10 @@ input:focus{
     margin-bottom: 2%;
 }
 textarea{
-    background-color: white;
+    background-color: lightgrey;
     width: 280px;
     color: black;
+    border:0px;
 }
 textarea:focus{
     outline: 0;
@@ -123,6 +124,27 @@ textarea:focus{
     border-color: lightgray;
     border: 1px solid white;
     margin-bottom:20px;
+}
+.card{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:80%;
+    margin: 0 auto;
+    background-color:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow: 0px 0px 5px 5px lightgrey;
+    margin-bottom:20px;
+}
+h2{
+    margin-top: 20px;
+    animation: animate ease-in-out 1s infinite alternate ;
+}
+@keyframes animate{
+    0%{transform: rotate(3deg)}
+    100%{transform: rotate(-3deg)}
+
 }
 @media (max-width:768px){
     .container{
