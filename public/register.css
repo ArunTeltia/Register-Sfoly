@@ -2,6 +2,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: system-ui;
+    color: white;
 }
 body{
     background: linear-gradient(90deg,#12c2e9,#c471ed,#f64f59);
@@ -35,10 +37,11 @@ label{
     max-width: 100%;
 }
 select{
-    background-color: rgb(246, 250, 18);
+    background-color: white;
     border: none;
     height: 30px;
     width: 80%;
+    color: black;
 }
 select:focus{
     outline: 0;
@@ -48,11 +51,11 @@ option{
     font-family: Arial, Helvetica, sans-serif;
 }
 input{
-    background-color: rgb(246, 250, 18);
+    background-color: white;
     border: none;
     height: 30px;
     width: 80%;
-
+    color: black;
 }
 input:focus{
     outline: 0;
@@ -82,8 +85,9 @@ input:focus{
     margin-bottom: 2%;
 }
 textarea{
-    background-color: rgb(246, 250, 18);
+    background-color: white;
     width: 280px;
+    color: black;
 }
 textarea:focus{
     outline: 0;
@@ -94,11 +98,9 @@ textarea:focus{
 	font-weight:  100;
 	letter-spacing: 2px;
 	text-align: center;
-	color: #f35626;
-	background-image: -webkit-linear-gradient(92deg, blue, green);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	-webkit-animation: hue 10s infinite linear;
+    color: white;
+    
+	
 }
 
 @-webkit-keyframes hue {
@@ -119,6 +121,8 @@ textarea:focus{
     border-radius: 40px;
     outline: 0;
     border-color: lightgray;
+    border: 1px solid white;
+    margin-bottom:20px;
 }
 @media (max-width:768px){
     .container{
