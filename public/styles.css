@@ -9,6 +9,8 @@ body {
     left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
+    /* background: linear-gradient(90deg,#12c2e9,#c471ed,#f64f59 50%, white 50%); */
+
     /* background: url('http://i.xp.io/HXKwJPw.jpg'); */
 }
 

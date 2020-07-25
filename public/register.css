@@ -3,6 +3,10 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background: linear-gradient(90deg,#12c2e9,#c471ed,#f64f59);
+    
+}
 #container{
     width: 100%;
 }
@@ -31,7 +35,7 @@ label{
     max-width: 100%;
 }
 select{
-    background-color: lightgrey;
+    background-color: rgb(246, 250, 18);
     border: none;
     height: 30px;
     width: 80%;
@@ -44,7 +48,7 @@ option{
     font-family: Arial, Helvetica, sans-serif;
 }
 input{
-    background-color: lightgrey;
+    background-color: rgb(246, 250, 18);
     border: none;
     height: 30px;
     width: 80%;
@@ -66,6 +70,7 @@ input:focus{
     text-align: start ;
 }
 .buttonsetting{
+    display:grid;
     justify-content: center;
     align-items: center;
 }
@@ -77,13 +82,44 @@ input:focus{
     margin-bottom: 2%;
 }
 textarea{
-    background-color: lightgray;
+    background-color: rgb(246, 250, 18);
     width: 280px;
 }
 textarea:focus{
     outline: 0;
 }
+.header {
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size: 3rem;
+	font-weight:  100;
+	letter-spacing: 2px;
+	text-align: center;
+	color: #f35626;
+	background-image: -webkit-linear-gradient(92deg, blue, green);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-animation: hue 10s infinite linear;
+}
 
+@-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
+
+.fileChoose{
+    width: 150px;
+    height: 50px;
+    margin:0px;
+    background: linear-gradient(90deg,#12c2e9,#c471ed,#f64f59 50%);
+    color: white;
+    border-radius: 40px;
+    outline: 0;
+    border-color: lightgray;
+}
 @media (max-width:768px){
     .container{
         flex-direction: column;
