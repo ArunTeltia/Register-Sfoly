@@ -5,7 +5,7 @@
 }
 
 body{
-    background-image: linear-gradient(90deg,#12c2e9,#c471ed,#f64f59 50%,white 50%);
+    background-image: linear-gradient(90deg,#12c2e9,#c471ed,#f64f59);
     
     font-family: 'Open sans','Sans serif';
     display: flex;
@@ -83,7 +83,7 @@ background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+
         width: 90%;
     }
     body{
-        background-image: linear-gradient(180deg,#12c2e9,#c471ed,#f64f59 50%,white 50%);
+        background-image: linear-gradient(180deg,#12c2e9,#c471ed,#f64f59);
     }
     img{
         height: 250px;
