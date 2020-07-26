@@ -91,14 +91,17 @@ margin-top: 78px;
 .download-wrapper{
     display: flex;
     align-items: flex-end;
-    margin-bottom: 20px;
+    margin: 20px;
+    background-color:white;
 }
 .downloadText{
-    margin-top: 40px;
-    color: white;
+    padding: 10px;
+    color: black;
     width: 300px;
 }
 .downloadButton{
+    padding:10px;
+    margin-right:10px;
     width: 70px;
     height: 40px;
 }
@@ -121,5 +124,11 @@ margin-top: 78px;
     }
     h3{
         margin-bottom:-100px;
+    }
+    .download-wrapper{
+        width:80%;
+
+        margin:10px auto;
+        /* margin-top:20px; */
     }
 }
