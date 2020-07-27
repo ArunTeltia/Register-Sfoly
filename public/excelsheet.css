@@ -93,6 +93,7 @@ margin-top: 78px;
     align-items: flex-end;
     margin: 20px;
     background-color:white;
+    border-radius: 7px;
 }
 .downloadText{
     padding: 10px;

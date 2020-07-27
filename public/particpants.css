@@ -13,7 +13,8 @@ body{
     align-items: center;
     min-height:100vh;
     background: linear-gradient(90deg,#12c2e9,#c471ed,#f64f59);
-    
+    flex-direction: column;
+    gap:50px;
 }
 #main-container{
     border-radius: 10px;
@@ -91,9 +92,22 @@ button{
     }
     
 }
+.status-bar{
+    width: 100%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    
+}
+.status-image{
+    /* height:30px; */
+    width:600px;
+    /* margin:20px; */
+}
 @media(max-width:400px){
     body{
         background: linear-gradient(180deg,#12c2e9,#c471ed,#f64f59);
+        gap:10px;
     }
     #main-container{
         width: 90%;
@@ -111,6 +125,9 @@ button{
         margin:10px;
         margin-left: 0;
 
+    }
+    .status-image{
+        height:12px;
     }
     
 }
